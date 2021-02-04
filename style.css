@@ -1,0 +1,109 @@
+h1 {
+    text-align: center;
+    background-color: cyan;
+    color: #1300fd;
+    border-radius: 8px;
+}
+
+.brack {
+    height: 150px;
+}
+
+.list {
+    width: 350px;
+    height: auto;
+    margin: auto;
+}
+
+ul li {
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 2px 0;
+}
+
+ul li:nth-child(odd) {
+    background-color: gray;
+    color: white;
+    text-align: left;
+}
+
+ul li:nth-child(even) {
+    background-color: #05ef88;
+    color: #000fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.box {
+    width: 98%;
+    margin: auto;
+}
+
+.inside-box {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 10px 15px;
+    float: left;
+}
+
+.place {
+    position: absolute;
+    left: 85px;
+    top: 560px;
+}
+
+
+.tns {
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.tns:hover {
+    background-color: red;
+    transition: 1.5s;
+    transform: rotate(180deg) scale(0.7);
+
+}
+
+.other{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    float: left;
+    margin: 0 10px;
+    transition: 1s;
+}
+
+.change:hover + .britto {
+    border-radius: 50%;
+    background-color: red;
+}
+
+.margin{
+    height: 150px;
+    width: 150px;
+    background-color: #ff009d;
+    margin: 10px 15px 20px 25px;
+    padding: 20px 15px 25px 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.over{
+    border: 2px solid red;
+    text-align: justify;
+    height: 115px;
+    width: 150px;
+    overflow: hidden;
+    overflow: scroll;
+    transform: rotate(20deg);
+}
+
+
+
